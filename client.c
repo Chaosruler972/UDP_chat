@@ -6,7 +6,7 @@
 
 #define BUFFER_SIZE 4096
 
-int allUpperCase(char msg[])
+int allUpperCase(const char msg[])
 {
     int iter = 0;
     for(;msg[iter] != '\0';iter++)
